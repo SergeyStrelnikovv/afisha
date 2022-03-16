@@ -11,6 +11,6 @@ public class Film {
     private int id;
     private String filmName;
     private String filmGenre;
-    private String ImageUrl;
+    private String imageUrl;
     private boolean tomorrowPremiere;
 }
