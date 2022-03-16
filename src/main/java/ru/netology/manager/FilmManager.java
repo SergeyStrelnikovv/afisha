@@ -8,10 +8,7 @@ public class FilmManager {
     Film[] films = new Film[0];
     int filmsQuantity = 10;
 
-    public FilmManager() {
-    }
-
-    public FilmManager(FilmRepository repository, int filmsQuantity) {
+    public FilmManager(FilmRepository repository) {
         this.repository = repository;
     }
 
